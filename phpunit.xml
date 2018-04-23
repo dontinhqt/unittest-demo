@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory>./test/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
+<!-- <phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         syntaxCheck="false">
+	<testsuites>
+    	<testsuite name="Tests">
+      		<directory suffix=".php">Tests</directory>
+    	</testsuite>
+  	</testsuites>
+</phpunit> -->
