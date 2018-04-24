@@ -60,7 +60,7 @@ class URLTest extends \PHPUnit_Framework_TestCase
 
     public function providerTestSluggifyReturnsSluggifiedString()
     {
-    	// annotation @dataProvider
+        // annotation @dataProvider
         return array(
             array('Đây là chuỗi cần được xử lý dấu và gạch ngang', 'day-la-chuoi-can-duoc-xu-ly-dau-va-gach-ngang'),
             array('ĐÂY LÀ CHUỖI CẦN XỬ LÝ DẤU VÀ GẠCH NGANG', 'day-la-chuoi-can-xu-ly-dau-va-gach-ngang'),
