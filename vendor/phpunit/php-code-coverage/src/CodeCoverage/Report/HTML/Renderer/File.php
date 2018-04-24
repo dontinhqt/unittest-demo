@@ -310,8 +310,7 @@ class PHP_CodeCoverage_Report_HTML_Renderer_File extends PHP_CodeCoverage_Report
             $popoverTitle   = '';
 
             if (array_key_exists($i, $coverageData)) {
-                // $numTests = count($coverageData[$i]);
-                $numTests = ($coverageData[$i] ? count($coverageData[$i]) : 0);
+                $numTests = count($coverageData[$i]);
 
                 if ($coverageData[$i] === null) {
                     $trClass = ' class="warning"';
